@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .container {
+            height: 100vh;
+            width: 100vw;
+        }
+
+        nav {
+            padding: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: black;
+            color: white;
+            position: fixed;
+            width: 100%;
+        }
+
+        nav>ul {
+            display: flex;
+            gap: 15px;
+        }
+
+        nav>ul>li {
+            list-style: none;
+        }
+
+        .bg-img {
+            background-image: url("./img/6.jpg");
+            background-position: center;
+            background-attachment: fixed;
+            background-size: cover;
+            height: 600px;
+            width: 100%;
+        }
+
+        .section {
+            height: 300px;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: rgb(195, 255, 195);
+
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <nav>
+            <div>LOGO</div>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>contect</li>
+            </ul>
+        </nav>
+        <div class="bg-img"></div>
+
+        <div class="section">
+            <h1>Welcome to my website</h1>
+        </div>
+
+        <div class="bg-img"></div>
+    </div>
+</body>
+
+</html>
