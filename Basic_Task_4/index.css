@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bg-img{
+    height: 100vh;
+    width: 100vw;
+    background-image: url('./img/pexels-padrinan-194096.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+h2{
+    text-align: center;
+    margin-bottom: 10px;
+    color: white;
+}
+form{
+    height: 380px;
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.418);
+    padding: 20px;
+    backdrop-filter: blur(20px);
+    border-radius: 25px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+form > div{
+    margin: 10px 0;
+}
+label{
+    color: white;
+}
+input{
+    outline: none;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+}
+.btn{
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 145px;
+    display: flex;
+    justify-content: center;
+}
+.btn > button{
+    padding: 16px 30px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 25px;
+}
+
+.btn > button:hover{
+    background-color: rgb(27, 27, 27);
+}
