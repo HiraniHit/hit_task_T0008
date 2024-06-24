@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Block-level and Inline Elements</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+
+        .container {
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            margin-bottom: 30px;
+        }
+
+        th,
+        td {
+            padding: 8px;
+            text-align: left;
+            border-bottom: 1px solid #DDD;
+        }
+
+        tr:hover {
+            background-color: #D6EEEE;
+        }
+
+        caption {
+            color: rgb(0, 0, 73);
+            margin: 20px 0;
+        }
+
+        .span {
+            font-size: 25px;
+            line-height: 60px;
+        }
+
+        .a:hover {
+            color: crimson;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Block-level and Inline Elements Example</h1>
+    </div>
+    <hr>
+    <div>
+        <h2>Block level Elements</h2>
+        <p> block-level element always takes up the full width </p>
+        <table>
+            <caption>Table is a also block level element</caption>
+            <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>age</th>
+            </tr>
+            <tr>
+                <td>Hit</td>
+                <td>Hirani</td>
+                <td>20</td>
+            </tr>
+            <tr>
+                <td>Himanshu</td>
+                <td>Vaghasiya</td>
+                <td>19</td>
+            </tr>
+            <tr>
+                <td>Brijesh</td>
+                <td>Gajera</td>
+                <td>21</td>
+            </tr>
+            <tr>
+                <td>Prit</td>
+                <td>Jiyani</td>
+                <td>19</td>
+            </tr>
+        </table>
+        <caption>Some block level elements</caption>
+        <ul>
+            <li>address</li>
+            <li>article</li>
+            <li>aside</li>
+            <li>blockquote</li>
+            <li>figure</li>
+            <li>footer</li>
+            <li>form</li>
+            <li>section</li>
+            <li>video</li>
+            <li>pre</li>
+        </ul>
+    </div>
+
+    <hr>
+
+    <span class="span"><strong>Inline Elements</strong></span>
+    <br>
+    <span><em>An inline element only takes up as much width as necessary.</em></span>
+    <br>
+    <a href="#" class="a" style="line-height: 60px;">click foe more information</a>
+
+    <hr>
+    <caption>Some inline level elements</caption>
+    <ul>
+        <li>a</li>
+        <li>abbr</li>
+        <li>b</li>
+        <li>i</li>
+        <li>img</li>
+        <li>input</li>
+        <li>strong</li>
+        <li>span</li>
+        <li>textarea</li>
+        <li>map</li>
+        <li>label</li>
+    </ul>
+
+
+
+</body>
+
+</html>
