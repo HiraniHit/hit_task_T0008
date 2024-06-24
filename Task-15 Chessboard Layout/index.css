@@ -1,0 +1,40 @@
+.caption {
+    font-size: 30px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.main {
+    margin: auto;
+    height: 800px;
+    width: 800px;
+    background-color: transparent;
+    border: 30px solid #000000;
+
+}
+
+.row {
+    float: left;
+}
+
+.row>div {
+    height: 100px;
+    width: 100px;
+}
+
+.row-black>div:nth-child(even) {
+    background-color: #f8e7bb;
+}
+
+.row-white>div:nth-child(odd) {
+    background-color: #f8e7bb;
+}
+
+.center {
+    font-size: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
