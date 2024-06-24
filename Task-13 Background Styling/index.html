@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background Styling</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+
+        section {
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(to right, #ff7e5f, #feb47b);
+            /* Gradient background */
+            color: white;
+            text-align: center;
+        }
+
+        .image-box {
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-image: url('./img/9.jpg');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+            text-align: center;
+
+        }
+
+        .nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+        }
+
+        .nav>ul>li {
+            list-style: none;
+
+        }
+
+        .nav>ul {
+            display: flex;
+            gap: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="nav">
+            <div style="text-align: center; font-size: 18px;"> Devotee Infotech</div>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Content</li>
+            </ul>
+        </div>
+    </header>
+
+    <section>
+        <h2>Background Styling Example</h2>
+    </section>
+    <h2 style="margin: 50px; text-align: center;">Background Image</h2>
+    <div class="image-box"></div>
+    <footer>
+        <p>&copy; 2024 My Website. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
