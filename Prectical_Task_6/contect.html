@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+  />
+    <title>contect</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      .logo {
+        color: white;
+      }
+
+      .nav {
+        overflow: hidden;
+        background-color: #333;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+      }
+
+      .nav a {
+        float: left;
+        font-size: 16px;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+
+      .drop-down {
+        float: left;
+        overflow: hidden;
+      }
+
+      .drop-down .dropbtn {
+        font-size: 16px;
+        border: none;
+        outline: none;
+        color: white;
+        padding: 14px 16px;
+        background-color: inherit;
+        font-family: inherit;
+        margin: 0;
+      }
+
+      .nav a:hover,
+      .drop-down:hover .dropbtn {
+        background-color: rgb(78, 78, 78);
+      }
+
+      .dropdown-info {
+        display: none;
+        position: absolute;
+        right: 0;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+      }
+
+      .dropdown-info a {
+        float: none;
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+      }
+
+      .dropdown-info a:hover {
+        background-color: #ddd;
+      }
+
+      .drop-down:hover .dropdown-info {
+        display: block;
+      }
+
+      .section {
+        height: 800px;
+        width: 100%;
+        background-color: rgb(255, 186, 186);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      footer {
+        height: auto;
+        width: 100%;
+        text-align: center;
+        padding: 40px;
+        background-color: #333;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="nav">
+        <div class="logo">LOGO</div>
+        <div>
+          <a href="./index.html">Home</a>
+          <a href="./about.html">About Us</a>
+          <div class="drop-down">
+            <button class="dropbtn">
+              Portfolio <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-info">
+                <a href="https://www.zomato.com/">Food website</a>
+                <a
+                  href="https://www.amazon.in/?tag=msndeskstdin-21&ref=pd_sl_4ft8psm3yt_e&adgrpid=1319415610409622&hvadid=82463739609610&hvnetw=o&hvqmt=e&hvbmt=be&hvdev=c&hvlocint=&hvlocphy=156323&hvtargid=kwd-82464407878475:loc-90&hydadcr=5622_2377266&msclkid=88af4368698117883c562511534b5ac0"
+                  >E-com website</a
+                >
+                <a href="https://www.makemytrip.com/flights/?cmp=SEM|D|DF|B|Brand|Brand-BrandExact_DT|B_M_Makemytrip_Search_Exact|Brand_Top_5_Exact|RSA|&s_kwcid=AL!1631!3!!e!!o!!makemytrip%5C&ef_id=:G:s&msclkid=d74d9ac45fe719b841aafcbd64c9ebe8">Travelling website</a>
+                <a href="https://www.netflix.com/in/">movie website</a>
+              </div>
+          </div>
+          <a href="./contect.html">Contect</a>
+        </div>
+      </div>
+      <div class="section">
+        <h1>Contect Page</h1>
+      </div>
+  
+      <footer>
+        <div>&copy; Treams and condition applied</div>
+      </footer>
+  </body>
+</html>
